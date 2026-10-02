@@ -51,7 +51,6 @@ No maps to squint at. No wall of numbers. A plain answer in about two seconds, t
 ## ◑ Four answers, no jargon
 
 <div align="center">
-<img src=".github/readme/verdicts.png" alt="The four Felt verdicts: Yes, Maybe, Earlier and Quiet" width="100%" />
 </div>
 
 <br />
@@ -194,32 +193,6 @@ Two reports are treated as the **same quake** when they fall within 90 seconds, 
 
 <br />
 
-## ➤ Run it
-
-Felt is plain HTML, CSS and JavaScript. **There is nothing to install and nothing to build.**
-
-```bash
-git clone https://github.com/YOUR-USERNAME/FELT.git
-cd FELT
-
-# any static server works — Python is already on most machines
-python3 -m http.server 8080
-```
-
-Then open **http://localhost:8080**.
-
-> [!TIP]
-> Service workers only run on `localhost` or HTTPS, so use a local server rather than double-clicking `index.html` if you want to test offline mode and installation.
-
-### Deploy to GitHub Pages
-
-1. Push the repo to GitHub.
-2. Go to **Settings → Pages**.
-3. Under **Build and deployment**, choose **Deploy from a branch**, select `main` and `/ (root)`, and hit **Save**.
-4. Your app goes live at `https://YOUR-USERNAME.github.io/FELT/` within a minute or two.
-
-A `.nojekyll` file is already included so GitHub serves the files exactly as they are.
-
 ### Put it on your phone
 
 | 🍎 iPhone / iPad | 🤖 Android |
@@ -255,25 +228,6 @@ Felt was built to need **nothing from you**.
 - Your **places**, your **yes/no log** and your **listen** setting live in your browser's `localStorage` under `felt.v1.*` and **never leave the device**.
 - *Use where I am* reads your location once, in your browser, to save coordinates locally. They are never sent anywhere.
 - The only network requests are to **GeoNet** and **USGS** for quake data, and to **Google Fonts** for the typefaces.
-
-<br />
-
-## 🎨 Design
-
-Felt is meant to feel like a quiet room, not a control panel — warm stone, a single amber vein, and a mineral green for *all is well*.
-
-<div align="center">
-<img src=".github/readme/palette.png" alt="Felt colour palette: Ink #1C1915, Stone #E4D9C8, Sand #EFE4D4, Cream #FFFAF3, Amber #C65D12, Mineral #1F6B58" width="100%" />
-</div>
-
-<br />
-
-| | |
-| :--- | :--- |
-| **Display** | [**Fraunces**](https://fonts.google.com/specimen/Fraunces) — a soft, characterful serif, set in italic for the wordmark, the seals and your personal notes |
-| **Interface** | [**Outfit**](https://fonts.google.com/specimen/Outfit) — clean geometric sans for labels, meta and buttons |
-| **Texture** | A faint 7 px dot-grid on warm stone, like good paper |
-| **Motion** | Restrained — a slow green pulse on the *Live* dot, and not much else |
 
 <br />
 
