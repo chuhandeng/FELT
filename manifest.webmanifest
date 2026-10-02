@@ -1,0 +1,14 @@
+{
+  "name": "FELT — was that an earthquake?",
+  "short_name": "FELT",
+  "description": "A two-second answer for the places you care about. Live earthquakes, estimated for your rooms. Not an official warning.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#e4d9c8",
+  "theme_color": "#1c1915",
+  "icons": [
+    { "src": "assets/mark.jpg", "sizes": "512x512", "type": "image/jpeg", "purpose": "any" },
+    { "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
