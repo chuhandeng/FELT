@@ -1,7 +1,4 @@
 <div align="center">
-
-<img src=".github/readme/banner.webp" alt="FELT — Was that an earthquake? Magnitude is the quake. Felt is whether your kitchen noticed." width="100%" />
-
 <br />
 <br />
 
